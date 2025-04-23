@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Outfit:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body{
+    background : linear-gradient(rgb(255, 79, 79) ,rgb(255, 208, 208));
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background : rgb(251, 249, 249) ;
+    width: auto;
+    height: 60px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+
+}
+.logo h3{
+    margin-left: 5px;
+    font-family: "Playwrite GB S", cursive;
+    color: red;
+    margin-top: 12px;
+}
+
+.navbar .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 70px;
+
+    margin-top: 5px;
+    
+}
+.ham img{
+    height: 50px;
+    width: 50px;
+}
+.text h3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+}
+.box{
+    width: 50vh;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box button{
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-self:center ;
+    align-self: center;
+    background-color: rgb(248, 178, 0);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: 0.2s all ease-in;
+}
+
+.box button:hover{
+    background-color: yellow;
+    color: red;
+    
+
+}
+.box input{
+    width: 40vh;
+    height: 30px;
+    margin-left: 25px;
+    background-color: rgb(255, 236, 200);
+    border-radius: 25px;
+    border: none;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+.box input::placeholder{
+ color: red;
+ font-size: 20px;
+}
+.box .head h2{
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 20px;
+    color: rgb(255, 0, 43);
+}
+
+.box2{
+    width: 50vh;
+    margin-top: 10px;
+    height: 180px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    border: 2px rgb(0, 0, 78) solid;
+    font-size: 25px;
+    color: rgb(0, 0, 109);
+    text-align: center;   
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    transition: 2s all ease-in;
+}
+
+
+.nav {
+    display: none;
+}
+.nav.active{
+    display: block ;
+}
+
+.nav ul{
+    background-color: rgba(255, 0, 0, 0.553);
+    color: yellow;
+    width: 100px;
+    display: block;
+    height: 100vh;
+    position: fixed;
+    width: 150px;
+}
+#nav ul li{
+    display: flex;
+    flex-direction: column;
+    list-style: none ;
+    font-size: 25px;
+   
+    margin-top: 10px;
+
+}
